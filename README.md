@@ -1,11 +1,11 @@
-# Real time DevOps Project - Building 3 tier High Availability Application Architecture using Terraform  in AWS 
-# Project Details: 
+# DevOps Project - Building 3 tier high availability application architecture using Terraform in AWS 
+# Project details: 
 
 We are going to deploy a three-tier application architecture in AWS cloud platform using Infrastructure as Code tool - Terraform. 
 
 **Why Terraform?** - We can deploy manually from the AWS console by creating every component one at a time, but what we do here, we will write code that will deploy the whole infrastructure in just a few clicks, and Terraform will help us in that. 
 
-**What We will Deploy**? - We will deploy 
+**What will we deploy**? - We will deploy 
 
 one VPC
 
