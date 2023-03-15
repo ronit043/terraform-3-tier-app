@@ -26,7 +26,7 @@ resource "aws_instance" "web" {
   }
 
   provisioner "file" {
-    source      = "./ronit043.pem"
+    source      = "/home/ronit/.ssh/ronit043.pem"
     destination = "/home/ec2-user/ronit043.pem"
 
     connection {

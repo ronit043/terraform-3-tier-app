@@ -13,17 +13,17 @@ resource "aws_subnet" "public" {
   count             = 2
 
   tags = {
-    Name = "jay-public-subnet"
+    Name = "ronit-public-subnet"
   }
 }
 
 resource "aws_subnet" "private" {
   vpc_id            = aws_vpc.main.id
   cidr_block        = "10.0.3.0/24"
-  availability_zone = "ap-south-1b"
+  availability_zone = "us-east-1b"
 
   tags = {
-    Name = "jay-private-subnet"
+    Name = "ronit-private-subnet"
   }
 }
 
