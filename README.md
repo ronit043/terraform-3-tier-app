@@ -1,4 +1,4 @@
-# DevOps Project - Building 3 tier high availability application architecture using Terraform in AWS 
+# Building 3 tier high availability application architecture using Terraform in AWS 
 # Project details: 
 
 We are going to deploy a three-tier application architecture in AWS cloud platform using Infrastructure as Code tool - Terraform. 
