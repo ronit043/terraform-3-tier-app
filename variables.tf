@@ -1,8 +1,3 @@
-#Author     : Soumya Modak
-#LinkedIn   : www.linkedin.com/in/soumya-modak
-#GitHub     : https://github.com/ronit043
-########################################################
-
 variable "cidr" {
   type    = list(any)
   default = ["10.0.1.0/24", "10.0.2.0/24"]
@@ -27,3 +22,4 @@ variable "instance_type" {
   type    = string
   default = "t2.micro"
 }
+

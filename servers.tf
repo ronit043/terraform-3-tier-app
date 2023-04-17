@@ -1,8 +1,3 @@
-#Author     : Soumya Modak
-#LinkedIn   : www.linkedin.com/in/soumya-modak
-#GitHub     : https://github.com/ronit043
-########################################################
-
 resource "aws_instance" "web" {
   ami                         = var.ec2_ami
   instance_type               = var.instance_type

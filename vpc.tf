@@ -38,6 +38,3 @@ data "aws_subnets" "sid" {
   }
 }
 
-
-
-
